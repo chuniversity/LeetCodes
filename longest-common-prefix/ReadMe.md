@@ -1,5 +1,5 @@
-##Runtime: 72 ms, faster than 90.10% of JavaScript online submissions for Longest Common Prefix.
-##Memory Usage: 40.4 MB, less than 37.14% of JavaScript online submissions for Longest Common Prefix.
+## Runtime: 72 ms, faster than 90.10% of JavaScript online submissions for Longest Common Prefix.
+## Memory Usage: 40.4 MB, less than 37.14% of JavaScript online submissions for Longest Common Prefix.
 
 
 14. Longest Common Prefix
