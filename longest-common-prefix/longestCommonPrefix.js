@@ -38,7 +38,6 @@ var longestCommonPrefix = function(strs) {
   if (!strs.length) {
     return '';
   }
-
   for (let i = 0; i < strs[0].length; i++) {
     for (let j = 0; j < strs.length; j++) {
       if(strs[j][i] !== strs[0][i]) {
@@ -47,20 +46,19 @@ var longestCommonPrefix = function(strs) {
     }
   }
   return strs[0]
-
 };
 
 // let strs = ["", ""]
-let strs = ["flower","flow","flight"]
+// let strs = ["flower","flow","flight"]
 
-console.log(longestCommonPrefix(strs)) 
+// console.log(longestCommonPrefix(strs)) 
 
-console.log((longestCommonPrefix(["flower","flow","flight"]) === "fl"));
-console.log((longestCommonPrefix(["dog","racecar","car"]) === ""));
-console.log((longestCommonPrefix(["reflower","flow","flight"]) === ""));
-console.log((longestCommonPrefix([""]) === ""));
-console.log((longestCommonPrefix(["", ""]) === ""));
-console.log((longestCommonPrefix(["", "something"]) === ""));
-console.log((longestCommonPrefix(["", "flower", "flooze"]) === ""));
+// console.log((longestCommonPrefix(["flower","flow","flight"]) === "fl"));
+// console.log((longestCommonPrefix(["dog","racecar","car"]) === ""));
+// console.log((longestCommonPrefix(["reflower","flow","flight"]) === ""));
+// console.log((longestCommonPrefix([""]) === ""));
+// console.log((longestCommonPrefix(["", ""]) === ""));
+// console.log((longestCommonPrefix(["", "something"]) === ""));
+// console.log((longestCommonPrefix(["", "flower", "flooze"]) === ""));
 
 
