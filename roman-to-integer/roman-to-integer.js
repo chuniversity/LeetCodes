@@ -14,13 +14,15 @@ const values = {
 
 
 var romanToInt = function(s) {
-    let result = 0;
-    for (let i = 0; i < s.length; i++) {
-      if(values[s[i]] < values[s[i + 1]]) {
-        result -= values[s[i]]
-      } else {
-        result += values[s[i]];
-      }
+  let result = 0;
+  let prevVal = 0;
+  for (let i = s.length-1; i >= 0; i--) {
+    if(values[s[i]] >= prevVal) {
+      result += values[s[i]];
+      prevVal = values[s[i]];
+    } else {
+      result -= values[s[i]]
     }
-    return result   
+  }
+  return result   
 };
