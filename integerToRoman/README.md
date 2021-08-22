@@ -1,5 +1,6 @@
 
-
+## Runtime: 136 ms, faster than 83.04% of JavaScript online submissions for Integer to Roman.
+## Memory Usage: 44.3 MB, less than 96.56% of JavaScript online submissions for Integer to Roman.
 
 
 
